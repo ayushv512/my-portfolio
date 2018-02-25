@@ -1,0 +1,26 @@
+.maindivcls{
+    margin-top: 4%;
+}
+.aboutmecls{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+p,li{
+    font-size: 20px;
+    color:#666666;
+}
+.paddingcls{
+    margin-top: 1%;
+}
+.marginbottoncls{
+    margin-bottom: 2%;
+}
+@media only screen and (max-width: 500px) {
+    .aboutmecls {
+        font-size: 35px;
+    }
+    p,li{
+        font-size: 14px;
+    }
+}

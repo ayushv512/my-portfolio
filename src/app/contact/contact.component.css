@@ -1,0 +1,67 @@
+.maindivcls{
+    margin-top: 4%;
+}
+.contactmecls{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+ p{
+    font-size: 20px;
+    color:#666666;
+}
+.social-apps{
+    list-style-type: none;
+}
+.facebook{
+    color: #43609c;
+    text-decoration: none;
+    font-size: 20px;
+}
+.twitter{
+    color: #5fc5ec;
+    font-size: 20px;
+    text-decoration: none;
+}
+.paddingbottomcls{
+    padding-bottom: 5%;
+}
+
+.linkedin{
+    color: #0982c0;
+    font-size: 20px;
+    text-decoration: none;
+}
+.sendemailbtncls{
+    background: #000;
+    color: #fff;
+    float: left;
+    margin-left: 91%;
+}
+.marginbottoncls{
+    margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 500px) {
+    .contactmecls {
+        font-size: 35px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .facebook, .twitter, .linkedin{
+        font-size: 15px;
+    }
+    img{
+        width:45px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .sendemailbtncls{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}

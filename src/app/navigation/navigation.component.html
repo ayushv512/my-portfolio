@@ -1,0 +1,30 @@
+<nav class="navbar navbar-inverse headercls">
+  <div class="container">
+            <div class="navbar-header marginrightcls">
+              <button type="button" class="navbar-toggle" (click)="toggleCollapse()">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+              </button>
+              <a routerLink="home"  routerLinkActive="active" class="navbar-brand">
+                <img src="./assets/images/AV.gif" class="img-circle avlogocls"> 
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" [class.show]="show">
+              <ul class="nav navbar-nav linkscls">
+                <li><a routerLink="about" routerLinkActive="active" class="linkfontcls" (click)="toggleCollapse()">about</a></li>
+                <li><a routerLink="projects" routerLinkActive="active" class="linkfontcls" (click)="toggleCollapse()">projects</a></li>
+                <li><a routerLink="gallery" routerLinkActive="active" class="linkfontcls" (click)="toggleCollapse()">gallery</a></li>
+                <li><a routerLink="contact"routerLinkActive="active" class="linkfontcls" (click)="toggleCollapse()">contact</a></li>
+              </ul>
+           
+            <ul class="nav navbar-nav navbar-right socialcls" >
+                <li><a href="https://www.facebook.com/ayush.verma.512" title="Like me on facebook" target="_blank" class="fa fa-facebook iconcls"></a></li>
+                <li><a href="https://twitter.com/ayushv512" title="Follow me on twitter" target="_blank" class="fa fa-twitter iconcls"></a></li>
+                <li><a href="https://www.linkedin.com/in/ayush-verma/" title="Connect with me on Linkedin" target="_blank" class="fa fa-linkedin iconcls"></a></li>
+            </ul>
+          </div>
+      </div>
+    
+</nav>
+

@@ -1,0 +1,42 @@
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+p,li{
+    font-size: 20px;
+    color:#666666;
+}
+.d2cdashboardcls{
+    margin-bottom: 5%;
+}
+.items {
+    height:540px;
+}
+.fa-angle-right:before {
+    font-size: 85px;
+}
+.fa-angle-left:before {
+    font-size: 85px;
+}
+.marginbottoncls{
+    margin-bottom: 4%;
+}
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 35px;
+    }
+    p,li{
+        font-size: 14px;
+    }
+    .items {
+        height:200px;
+    }
+    .fa-angle-right:before {
+        font-size: 25px;
+    }
+    .fa-angle-left:before {
+        font-size: 25px;
+    }
+
+}

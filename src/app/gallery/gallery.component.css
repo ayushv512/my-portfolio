@@ -1,0 +1,38 @@
+p{
+    font-size: 20px;
+    color:#666666;
+}
+.maindivcls{
+    margin-left: 16% !important;
+    margin-top: 2%;
+}
+.marginbottoncls{
+    margin-bottom: 4%;
+}
+.gallerycls{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+.carousel{
+    width: 44%;
+    margin-left: 16%;
+}
+
+@media only screen and (max-width: 500px) {
+    .gallerycls {
+        font-size: 35px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .maindivcls{
+        margin-left: 0% !important;
+        margin-top: 0%;
+    }
+    .carousel{
+        width: 100% !important;
+        margin: 0% !important;
+    }
+}
+

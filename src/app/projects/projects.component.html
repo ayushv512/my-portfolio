@@ -1,0 +1,98 @@
+
+  <div class="container  marginbottoncls">
+      <div class="row">
+        <div class="col-md-12">
+            <h1>projects</h1>
+            <p><strong>Customer Servicing App:</strong></p>
+            <p class="marginbottoncls">This application is built for consumers and advisors, it enables full self-service and 
+              paperless transactions for all post-issue transactions and requests.
+              It enable a state-of-the-art,24x7 customer experience. It slash servicing costs and
+              improve client satisfaction in one go, with build-in triggers for advisors to cross-sell and up sell.</p>     
+             
+              <div
+                ng2-carouselamos
+                class="slides-wrapper marginbottoncls"
+                [items]="csitems"
+                [width]="900"
+                [$prev]="prev"
+                [$next]="next"
+                [$item]="item"
+              >
+              </div>
+          
+          
+            <ng-template #prev>
+              <img src="" class="fa fa-angle-left" id="left" />
+            </ng-template>
+            <ng-template #next>
+              <img src="" class="fa fa-angle-right" id="right" />
+            </ng-template>
+            <ng-template #item let-item let-i="index">
+                <div class="csitems">
+                  <img src="{{item.name}}" class="d2cdashboardcls">
+                </div>
+            </ng-template>
+            
+            <hr>
+            <p><strong>Profile Management App:</strong></p>
+            <p class="marginbottoncls">A comprehensive dashboard of a customer's personal profile and financial portfolio across products with 
+              actionable alerts build-in. This app deployed in conjunction with Customer Servicing creates
+              straight-through processing ability for post issue servicing.</p>
+           
+            <div
+              ng2-carouselamos
+              class="slides-wrapper marginbottoncls"
+              [items]="pmitems"
+              [width]="900"
+              [$prev]="prev"
+              [$next]="next"
+              [$item]="item"
+            >
+            </div>
+        
+        
+          <ng-template #prev>
+            <img src="" class="fa fa-angle-left" id="left" />
+          </ng-template>
+          <ng-template #next>
+            <img src="" class="fa fa-angle-right" id="right" />
+          </ng-template>
+          <ng-template #item let-item let-i="index">
+              <div class="pmitems">
+                <img src="{{item.name}}" class="d2cdashboardcls">
+              </div>
+          </ng-template>
+            
+          <hr>
+          <p><strong>Agent Hierarchy App:</strong></p>
+          <p></p>
+            <div
+            ng2-carouselamos
+            class="slides-wrapper marginbottoncls"
+            [items]="agitems"
+            [width]="900"
+            [$prev]="prev"
+            [$next]="next"
+            [$item]="item"
+          >
+          </div>
+      
+      
+        <ng-template #prev>
+          <img src="" class="fa fa-angle-left" id="left" />
+        </ng-template>
+        <ng-template #next>
+          <img src="" class="fa fa-angle-right" id="right" />
+        </ng-template>
+        <ng-template #item let-item let-i="index">
+            <div class="agitems">
+              <img src="{{item.name}}" class="d2cdashboardcls">
+            </div>
+        </ng-template>
+          <hr>
+        </div>
+      </div>
+  </div>
+
+  
+  
