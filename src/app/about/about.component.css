@@ -1,5 +1,5 @@
 .maindivcls{
-    margin-top: 4%;
+    padding-top: 30px;
 }
 .aboutmecls{
     font-size: 50px;
@@ -17,6 +17,9 @@ p,li{
     margin-bottom: 2%;
 }
 @media only screen and (max-width: 500px) {
+    .maindivcls{
+        padding-top: 0px;
+    }
     .aboutmecls {
         font-size: 35px;
     }

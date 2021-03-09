@@ -7,7 +7,7 @@ p,li{
     font-size: 20px;
     color:#666666;
 }
-.d2cdashboardcls{
+.d2cdashboardcls {
     margin-bottom: 5%;
 }
 .items {
@@ -19,10 +19,29 @@ p,li{
 .fa-angle-left:before {
     font-size: 85px;
 }
-.marginbottoncls{
+.maindivcls {
+    padding-top: 30px;
+}
+.marginbottoncls {
     margin-bottom: 4%;
 }
+@media only screen and (max-width: 1024px) {
+    .d2cdashboardcls {
+        width: calc(100vw - 125px);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .d2cdashboardcls {
+        width: calc(100vw - 50px);
+    }
+}
 @media only screen and (max-width: 500px) {
+    .maindivcls {
+        padding-top: 0px;
+    }
+    .d2cdashboardcls {
+        width: calc(100vw - 30px);
+    }
     h1 {
         font-size: 35px;
     }

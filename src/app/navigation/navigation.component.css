@@ -15,6 +15,9 @@
 .iconcls{
     font-size:32px;
 }
+.navbar{
+    margin-bottom: 0px;
+}
 .navbar-nav li a{
     color:#fff;
 }
@@ -29,7 +32,7 @@
 }
 @media only screen and (max-width: 500px) {
     .headercls{
-        height: 40px;
+        height: 52px;
     }
     .avlogocls{
         width:30px;
@@ -50,6 +53,9 @@
         font-size: 18px;
         text-align: center;
     }
+    .linkscls{
+        margin: 0px;
+    }
     .linkscls li { 
         text-align: center;
         background: #000;
@@ -61,12 +67,25 @@
            display: none;             
     }
     .socialcls{
-        
+        margin: 0;
+        display: flex;
+        justify-content: center
+    }
+    .socialcls li { 
+        text-align: center;
+        background: #000;
+        z-index: 1;
+        border-top: #212121 solid 1px;
+        border-bottom: #363636 solid 1px;
+        padding: 0 36px;
     }
     .linkscls{
         margin-top: 0px;
     }
     .linkfontcls{
         font-size:15px;
+    }
+    .navbar-collapse {
+        border: none;
     }
 }

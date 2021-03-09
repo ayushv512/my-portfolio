@@ -3,8 +3,8 @@ p{
     color:#666666;
 }
 .maindivcls{
-    margin-left: 16% !important;
-    margin-top: 2%;
+    height: calc(100vh - 133px);
+    padding-top: 30px;
 }
 .marginbottoncls{
     margin-bottom: 4%;
@@ -14,12 +14,23 @@ p{
     font-weight: bold;
     color: #000;
 }
-.carousel{
-    width: 44%;
-    margin-left: 16%;
+.carousel {
+    width: 100%;
+}
+.carousel-inner img{
+    width: 500px;
+    margin: 0 auto;
+}
+.carousel-indicators li{
+    margin: 5px;
+    bottom: 10px;
 }
 
 @media only screen and (max-width: 500px) {
+    .maindivcls{
+        height: calc(100vh - 92px);
+        padding-top: 0px;
+    }
     .gallerycls {
         font-size: 35px;
     }
